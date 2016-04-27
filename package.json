@@ -10,7 +10,7 @@
   "dir": {
     "dist": "dist",
     "build": "build",
-    "app": "app/*"
+    "app": "src/*"
   },
   "buildname": {
     "main": "main",
