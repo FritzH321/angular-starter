@@ -1,0 +1,51 @@
+{
+  "name": "angular-js",
+  "version": "0.0.1",
+  "description": "Angular Starter.",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.dev.js --inline --hot",
+    "build": "webpack --config webpack/webpack.build.js --NODE_ENV=production",
+    "postinstall": "typings install"
+  },
+  "dir": {
+    "dist": "dist",
+    "build": "build",
+    "app": "app/*"
+  },
+  "buildname": {
+    "main": "main",
+    "mini": "main.min"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "0.2.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "0.8.5",
+    "html-webpack-plugin": "2.7.2",
+    "less": "~2.6.0",
+    "less-loader": "~2.2.2",
+    "open-browser-webpack-plugin": "0.0.2",
+    "raw-loader": "0.5.1",
+    "sass-loader": "3.1.2",
+    "style-loader": "0.13.0",
+    "ts-loader": "0.8.1",
+    "tslint": "~2.4.2",
+    "typescript": "1.8.7",
+    "typings": "0.7.5",
+    "webpack": "1.12.12",
+    "webpack-dev-server": "~1.14.1"
+  },
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-aria": "~1.5.0",
+    "angular-bootstrap": "~0.12.2",
+    "angular-sanitize": "~1.5.0",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.2.1",
+    "lodash": "^4.11.1"
+  },
+  "keywords": [
+    "AVOS",
+    "angularjs"
+  ]
+}
