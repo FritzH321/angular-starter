@@ -8,12 +8,15 @@ import * as _ from "lodash";
 import "font-awesome/css/font-awesome.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+//Modules
+import './modules/components/index';
 
-angular.module("app", []);
+angular.module("app", [
+    'app.component'
+]);
 angular.bootstrap(document, ["app"], {
     strictDi: true
 });
 
 
-alert('test');
 
