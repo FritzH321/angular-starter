@@ -1,13 +1,13 @@
-// LOAD JS DEPS
+// LOAD JS/CSS DEPS
 import * as $ from 'jquery';
 import 'bootstrap';
 import 'angular';
-
 import * as _ from "lodash";
 
-// load our default (non specific) css
-import "font-awesome/css/font-awesome.css";
-import "bootstrap/dist/css/bootstrap.css";
+
+// load master scss:
+import './styles/master.scss';
+
 
 //Modules
 import './modules/components/index';
@@ -18,6 +18,3 @@ angular.module("app", [
 angular.bootstrap(document, ["app"], {
     strictDi: true
 });
-
-
-

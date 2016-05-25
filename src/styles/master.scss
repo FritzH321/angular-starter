@@ -1,0 +1,13 @@
+// load our default (non specific) css
+$fa-font-path: "font-awesome/fonts";
+
+@import "~font-awesome/css/font-awesome";
+@import "~bootstrap/dist/css/bootstrap";
+
+body {
+  background-color:blue;
+}
+
+h1 {
+  color:yellow;
+}
