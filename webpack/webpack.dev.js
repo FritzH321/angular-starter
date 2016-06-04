@@ -19,7 +19,7 @@ module.exports = {
 			aggregateTimeout: 300,
 			poll: 1000
 		},
-		port: 8008
+		port: 8080
 	},
 	resolve: {
 		root: __dirname,
@@ -28,14 +28,14 @@ module.exports = {
 	resolveLoader: {
 		modulesDirectories: ["node_modules"]
 	},
-	devtool: "cheap-module-eval-source-map",
+	devtool: "source-map",
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/index.html',
 			inject: 'body',
 			hash: true
 		}),
-		new OpenBrowserPlugin('http://localhost:8008'),
+		new OpenBrowserPlugin('http://localhost:8080'),
 		new webpack.ProvidePlugin({
 			$: 'jquery',
 			jQuery: 'jquery',

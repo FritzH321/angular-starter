@@ -12,3 +12,8 @@ Install dependencies
 ``
 npm install
 ``
+
+Install typings.
+```
+typings install dt~angular-ui-router --save --global
+```
